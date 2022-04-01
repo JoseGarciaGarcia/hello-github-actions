@@ -1,0 +1,21 @@
+name: "Hola Actions"
+	
+description: "Saludos"
+
+author: "octocat@github.com"
+
+
+inputs:
+
+MY_NAME:
+description: "a quién saludar"
+ required: true
+default: "World"
+
+runs:
+using: "docker"
+image: "Dockerfile"
+	
+branding:
+icon: "mic"
+color: "purple"
